@@ -57,7 +57,7 @@ app.get('/', function (req, res, next) {
     return res.render('add category');
 });
 
-//Server listen
+//Server listen port 1000
 app.listen(1000, () => {
     console.log(`my node project is running on port no 1000`);
 });
