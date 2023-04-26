@@ -34,7 +34,9 @@ app.get('/add-product', function (req, res, next) {
 app.get('/product-listing', function (req, res, next) {
  return res.render('product');
 });
-//
+
+//this route for order
+
 app.get('/orders', function (req, res, next) {
    return res.render('order');
 });
